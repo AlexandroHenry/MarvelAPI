@@ -11,6 +11,15 @@
 		AAEA28AC295BFEA60028B596 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEA28AB295BFEA60028B596 /* ContentView.swift */; };
 		AAEA28AE295BFEA90028B596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAEA28AD295BFEA90028B596 /* Assets.xcassets */; };
 		AAEA28B1295BFEA90028B596 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAEA28B0295BFEA90028B596 /* Preview Assets.xcassets */; };
+		AAEA28B9295C00EC0028B596 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AAEA28B8295C00EC0028B596 /* SDWebImageSwiftUI */; };
+		AAEA28BC295C01B80028B596 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEA28BB295C01B80028B596 /* Credentials.swift */; };
+		AAEA28C1295C01F90028B596 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEA28C0295C01F90028B596 /* Home.swift */; };
+		AAEA28C3295C042F0028B596 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEA28C2295C042F0028B596 /* HomeViewModel.swift */; };
+		AAEA28C5295C04780028B596 /* CharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEA28C4295C04780028B596 /* CharactersView.swift */; };
+		AAEA28C7295C08930028B596 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEA28C6295C08930028B596 /* Character.swift */; };
+		AAEA28CA295C15560028B596 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEA28C9295C15560028B596 /* WebView.swift */; };
+		AAEA28CC295C1DD20028B596 /* ComicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEA28CB295C1DD20028B596 /* ComicsView.swift */; };
+		AAEA28CE295C1DE70028B596 /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEA28CD295C1DE70028B596 /* Comic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		AAEA28AB295BFEA60028B596 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AAEA28AD295BFEA90028B596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAEA28B0295BFEA90028B596 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAEA28BB295C01B80028B596 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		AAEA28C0295C01F90028B596 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AAEA28C2295C042F0028B596 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		AAEA28C4295C04780028B596 /* CharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersView.swift; sourceTree = "<group>"; };
+		AAEA28C6295C08930028B596 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		AAEA28C8295C142A0028B596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AAEA28C9295C15560028B596 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		AAEA28CB295C1DD20028B596 /* ComicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsView.swift; sourceTree = "<group>"; };
+		AAEA28CD295C1DE70028B596 /* Comic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAEA28B9295C00EC0028B596 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +70,15 @@
 		AAEA28A8295BFEA60028B596 /* MarvelAPI */ = {
 			isa = PBXGroup;
 			children = (
+				AAEA28C8295C142A0028B596 /* Info.plist */,
+				AAEA28BF295C01EC0028B596 /* ViewModel */,
+				AAEA28BE295C01E70028B596 /* Model */,
+				AAEA28BD295C01E10028B596 /* View */,
 				AAEA28A9295BFEA60028B596 /* MarvelAPIApp.swift */,
 				AAEA28AB295BFEA60028B596 /* ContentView.swift */,
 				AAEA28AD295BFEA90028B596 /* Assets.xcassets */,
 				AAEA28AF295BFEA90028B596 /* Preview Content */,
+				AAEA28BB295C01B80028B596 /* Credentials.swift */,
 			);
 			path = MarvelAPI;
 			sourceTree = "<group>";
@@ -65,6 +89,34 @@
 				AAEA28B0295BFEA90028B596 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAEA28BD295C01E10028B596 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAEA28C0295C01F90028B596 /* Home.swift */,
+				AAEA28C4295C04780028B596 /* CharactersView.swift */,
+				AAEA28C9295C15560028B596 /* WebView.swift */,
+				AAEA28CB295C1DD20028B596 /* ComicsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAEA28BE295C01E70028B596 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAEA28C6295C08930028B596 /* Character.swift */,
+				AAEA28CD295C1DE70028B596 /* Comic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AAEA28BF295C01EC0028B596 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AAEA28C2295C042F0028B596 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +135,9 @@
 			dependencies = (
 			);
 			name = MarvelAPI;
+			packageProductDependencies = (
+				AAEA28B8295C00EC0028B596 /* SDWebImageSwiftUI */,
+			);
 			productName = MarvelAPI;
 			productReference = AAEA28A6295BFEA60028B596 /* MarvelAPI.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +166,9 @@
 				Base,
 			);
 			mainGroup = AAEA289D295BFEA60028B596;
+			packageReferences = (
+				AAEA28B7295C00EC0028B596 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = AAEA28A7295BFEA60028B596 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAEA28BC295C01B80028B596 /* Credentials.swift in Sources */,
+				AAEA28CA295C15560028B596 /* WebView.swift in Sources */,
 				AAEA28AC295BFEA60028B596 /* ContentView.swift in Sources */,
+				AAEA28CC295C1DD20028B596 /* ComicsView.swift in Sources */,
+				AAEA28C7295C08930028B596 /* Character.swift in Sources */,
+				AAEA28C5295C04780028B596 /* CharactersView.swift in Sources */,
+				AAEA28C1295C01F90028B596 /* Home.swift in Sources */,
+				AAEA28CE295C1DE70028B596 /* Comic.swift in Sources */,
+				AAEA28C3295C042F0028B596 /* HomeViewModel.swift in Sources */,
 				AAEA28AA295BFEA60028B596 /* MarvelAPIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +336,7 @@
 				DEVELOPMENT_TEAM = 2UYV54B9WB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarvelAPI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +366,7 @@
 				DEVELOPMENT_TEAM = 2UYV54B9WB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarvelAPI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +407,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AAEA28B7295C00EC0028B596 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AAEA28B8295C00EC0028B596 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAEA28B7295C00EC0028B596 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AAEA289E295BFEA60028B596 /* Project object */;
 }
